@@ -21,10 +21,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.blackshark.score"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "95218ca6-64b4-4201-bbb2-7bebf546904e"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
